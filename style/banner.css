@@ -1,0 +1,72 @@
+#banner{
+    height: 100vw;
+    background-image: url("https://image.tmdb.org/t/p/original/bZGAX8oMDm3Mo5i0ZPKh9G2OcaO.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#banner--v{
+    width: inherit;
+    height: inherit;
+    top: 0px;
+    background-image: linear-gradient(to top, black 10%, transparent);
+}
+#banner--h{
+    background-image: linear-gradient(to right, black 30%, transparent);
+    width: inherit;
+    height: inherit;
+}
+
+#banner--image{
+    height: 100%;
+}
+
+#banner--info{
+    position: absolute;
+    top: 150px;
+    left: 35px;
+}
+#banner--title{
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+#banner--grade{
+    color: rgb(65, 216, 27);
+}
+#banner--info--info span{
+    font-size: 15px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+#banner--info--info{
+    padding-bottom: 15px;
+}
+
+#banner--description{
+    padding-bottom: 15px;
+    color: rgb(184, 184, 184);
+    font-weight: bold;
+    width: 70vw;
+}
+
+.banner--button{
+    height: 50px;
+    color: #111;
+    background-color: #FFF;
+    font-size: 17px;
+    border-color: transparent;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+.banner--button:hover{
+    background-color: rgb(218, 218, 218);
+}
+#banner--buttons{
+    padding-bottom: 15px;
+}
+#banner--genres{
+    color: rgb(105, 105, 105);
+    font-weight: bold;
+
+}

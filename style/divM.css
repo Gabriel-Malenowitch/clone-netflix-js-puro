@@ -1,0 +1,37 @@
+#feed{
+    z-index: 9999;
+    transform: translateY(-900px);
+    margin-bottom: 30px;
+}
+
+#feed h2{
+    margin: 0px 0px 20px 30px;
+}
+
+.listMovies-list{
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.listMovies{
+    width: 99999px;
+    transition: all ease 0.5s;
+}
+
+.listMovies-item img{
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+
+.listMovies-item{
+    display: inline-block;
+    width: 150px;
+    display: flex;
+}
+
+#feed img:hover {
+    transform: scale(1);
+}
+
+
