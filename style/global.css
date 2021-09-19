@@ -14,7 +14,7 @@ body{
     position: absolute;
     z-index: 999;
     background-color: transparent;
-    width: 100vw;
+    width: 98vw;
     display: flex;
     justify-content: space-between;
     align-items: center;

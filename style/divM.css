@@ -1,6 +1,7 @@
 #feed{
     z-index: 9999;
-    transform: translateY(-900px);
+    /* transform: translateY(-900px); */
+    margin-top: -900px;
     margin-bottom: 30px;
 }
 
@@ -14,24 +15,54 @@
 }
 
 .listMovies{
-    width: 99999px;
     transition: all ease 0.5s;
+    margin-left: -500px;
 }
 
 .listMovies-item img{
     width: 100%;
     transform: scale(0.9);
     transition: all ease 0.2s;
+    background-size:cover;
 }
 
 .listMovies-item{
     display: inline-block;
     width: 150px;
     display: flex;
+    
 }
 
 #feed img:hover {
     transform: scale(1);
 }
 
+.bl{
+    position: absolute;
+    left: 10px;
+    width: 40px;
+    height: 220px;
+    margin: 50px 0px 0px 0px;
+    z-index: 2;
+    color: rgb(241, 235, 235);
+    font-size: 50px;
+    border-color: transparent;
+    background: transparent;
+}
+.br{
+    position: absolute;
+    right: 10px;
+    width: 40px;
+    height: 220px;
+    margin: 50px 0px 0px 0px;
+    z-index: 2;
+    color: rgb(241, 235, 235);
+    font-size: 50px;
+    border-color: transparent;
+    background: transparent;
+}
+.bl:hover, .br:hover{
+    font-size: 60px;
+    font-weight: bold;
+}
 
